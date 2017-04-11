@@ -20,14 +20,10 @@ import { Component } from '@angular/core';
       </div>
     </nav>
   </header>
-    <div class="jumbotron text-center">
-      <h1>The App Lives!</h1>
-      <p>{{ message }}</p>
-    </div>
 
-    <contact-page></contact-page>
-    <home-page></home-page>
-    <about-page></about-page>
+  <main>
+    <router-outlet></router-outlet>
+  </main>
   `
 })
 export class AppComponent {
