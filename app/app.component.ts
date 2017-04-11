@@ -10,6 +10,10 @@ import { Component } from '@angular/core';
       <h1>The App Lives!</h1>
       <p>{{ message }}</p>
     </div>
+
+    <contact-page></contact-page>
+    <home-page></home-page>
+    <about-page></about-page>
   `
 })
 export class AppComponent {
